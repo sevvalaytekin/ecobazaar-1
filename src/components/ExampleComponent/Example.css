@@ -1,11 +1,12 @@
+@import url("./../../style.css");
 .example-section {
   background-color: #f0f4f8;
   padding: 20px;
   border-radius: 12px;
   font-family: sans-serif;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
-  margin: 20px auto;
+  width: 100%;
+
   text-align: center;
 }
 
@@ -16,16 +17,18 @@
 .example-section p {
   color: #333;
   font-size: 16px;
+   margin-top: 15px;
 }
 
 .example-button {
   padding: 10px 20px;
-  background-color: #00b207;
+  background-color: var(--clr-primary);
   border: none;
   border-radius: 8px;
   color: white;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 15px;
   transition: background-color 0.3s ease;
 }
 
