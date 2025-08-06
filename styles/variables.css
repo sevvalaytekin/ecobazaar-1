@@ -1,12 +1,44 @@
 :root {
 
 /* Renkler */
-  --clr-primary: #00b207;
 
+--storelocation-backgroundcolor:#EDF2EE;
+--storelocation-color:#EDF2EE;
+--white: #FFFFFF;
+--menudetail-color:#808080;
+--title-color:#002603;
+--green-color:#00b207;
+--gray-color:#999999;
+--productnamecolor-gray:#4D4D4D;
+--productcolor-rate:#FF8A00;
+--producnamecolor-green:#2C742F;
+--brandname-color:#CCCCCC;
+--black:#1A1A1A;
+--storelocation-color:#333333;
+--gray:#B3B3B3;
+--dark-gray:#666666;
+--background-color: #F7F7F7;
+--smallbackground-color:#F2F2F2;
+--footercolor-line:#20B526;
 
 /* Fontlar */
---fnt-family-poppins: "Poppins", sans-serif;
---fnt-size-small: 12px;
+--family-poppins: "Poppins", sans-serif;
+
+/*Size*/
+--size-8:8px;
+--size-11:11px;
+--size-12:12px;
+--size-14:14px;
+--size-15:15px;
+--size-16:16px;
+--size-18:18px;
+--size-20:20px;
+--size-24:24px;
+--size-32:32px;
+--size-36:36px;
+--size-40:40px;
+--size-56:56px;
+--size-72:72px;
 
   
 }
