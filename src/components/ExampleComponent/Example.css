@@ -1,9 +1,10 @@
 @import url("./../../style.css");
 .example-section {
-  background-color: #f0f4f8;
+  background-color: var(--productcolor-rate);
   padding: 20px;
   border-radius: 12px;
-  font-family: sans-serif;
+  font-family: var(--family-poppins);
+
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
 
