@@ -1,1 +1,0 @@
-# july-frontend-ecobazar-1

@@ -1,3 +1,5 @@
+
+
 :root {
 
 /* Renkler */
@@ -22,7 +24,7 @@
 --footercolor-line:#20B526;
 
 /* Fontlar */
---family-poppins: "Poppins", sans-serif;
+--poppins: "Poppins", sans-serif;
 
 /*Size*/
 --size-8:8px;
