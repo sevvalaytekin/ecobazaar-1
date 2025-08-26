@@ -14,3 +14,32 @@ boxes.forEach(box => {
 });
 
 // Kübra Feature Section End
+
+//melisa navbar section start
+const hamburger = document.querySelector(".hamburger");
+const mobileMenu = document.querySelector(".mobile_menu");
+
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.toggle("active");
+
+
+  if (hamburger.innerHTML === "&#9776;") {
+    hamburger.innerHTML = "&times;";
+  } else {
+    hamburger.innerHTML = "&#9776;";
+  }
+});
+
+
+const searchBtn = document.querySelector(".search-btn");
+const searchInput = document.querySelector(".search-input");
+
+searchBtn.addEventListener("click", () => {
+  searchInput.classList.toggle("active");
+  if (searchInput.classList.contains("active")) {
+    searchInput.focus();
+  }
+});
+
+
+//melisa navbar section end
