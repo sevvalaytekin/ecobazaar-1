@@ -83,3 +83,5 @@ document.getElementById("seconds").innerText=seconds;
 //her saniye güncelleöme
 setInterval(updateCountdown,1000);
 updateCountdown();
+
+//melisa discount banner section end 
