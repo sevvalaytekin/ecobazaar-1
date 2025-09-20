@@ -353,6 +353,7 @@ header {
 /* melisa discount banner end */
 
 /* sevval  company logo start */
+
 .logo-container {
   max-width: 1320px;
   display: flex;
@@ -370,7 +371,6 @@ header {
 .logo-container .logo:last-child {
   border-right: none;
 }
-
 
 
 
